@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.out-box{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(137, 137, 230)
+}
+
+.in-box{
+    border:none;
+    width: 400px;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    padding:10px 30px;
+    background-color:rgb(137, 137, 230); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px ;
+    z-index: index 2;
+}
+
+.signup-body {
+    margin:20px 0; 
+}
+.signup-body p{ 
+    margin: 10px 0;
+}
+.signup-body p label{ 
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input{ 
+    width: 100%;
+    padding: 10px;
+
+}
+.signup-body p input[type="submit"]{ 
+    background-color: blueviolet;
+    border: none;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color:rgb(8, 222, 122) 
+}
+.signup-footer p { 
+    text-align: center;
+
+}
